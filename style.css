@@ -11,12 +11,13 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #242424;
     padding-top: 20px;
+    overflow-y: auto;
 }
 
 .sidenav h2 {
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -24,7 +25,7 @@ html {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
     display: block;
 }
 
@@ -36,7 +37,7 @@ html {
     margin-left: 200px;
     padding: 0;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .content iframe {
@@ -47,6 +48,7 @@ html {
 
 .titulo {
     text-align: center;
+    animation: 7000ms ease-in-out infinite titulo;
 }
 
 .sub-titulo {
@@ -54,15 +56,92 @@ html {
 }
 
 .paragrafo1 {
-    text-align: center;
+    padding-left: 15px;
 }
 
 .fundo-geral {
-    background-color: #d6d6d6;
-    overflow-y: hidden;
+    background-color: #bdbdbd;
 }
 
 code {
     font-size: large;
     color: rgb(14, 54, 165);
 }
+
+.div-titulo {
+    animation: 7000ms ease-in-out infinite div-titulo;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@keyframes titulo {
+    0% {
+        color: rgb(14, 1, 26);
+    }
+
+    20% {
+        color: rgb(105, 48, 2);
+    }
+
+    40% {
+        color: rgb(41, 40, 40);
+    }
+
+    60% {
+        color: rgb(117, 30, 117);
+    }
+
+    80% {
+        color: rgb(1, 185, 1);
+    }
+
+    100% {
+        color: rgb(14, 1, 26);
+    }
+}
+
+@keyframes div-titulo {
+    0% {
+        background-color: rgb(105, 48, 2);
+    }
+
+    20% {
+        background-color: rgb(41, 40, 40);
+    }
+
+    40% {
+        background-color: rgb(117, 30, 117);
+    }
+
+    60% {
+        background-color: rgb(1, 185, 1);
+    }
+
+    80% {
+        background-color: rgb(14, 1, 26);
+    }
+
+    100% {
+        background-color: rgb(105, 48, 2);
+    }
+}
+
+.div-exemplo-fora {
+    background-color: #7e7e7e;
+    width: auto;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.exemplo {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.div-exemplo-dentro {
+    background-color: #bdbdbd;
+    margin-right: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
