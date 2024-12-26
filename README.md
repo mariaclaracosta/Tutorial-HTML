@@ -6,4 +6,4 @@ Esse site é um tutorial com um pouco de cada função mais utilizada do HTML, e
 ![image](https://github.com/mariaclaracosta/Tutorial-HTML/assets/106972816/499cce2a-3b44-44aa-9544-d35f84e67633)
 
 #Link do Site
-https://663823fb7734304c6407e365--tutorlal-html.netlify.app
+[https://663823fb7734304c6407e365--tutorlal-html.netlify.app](https://tutorlal-html.netlify.app)
